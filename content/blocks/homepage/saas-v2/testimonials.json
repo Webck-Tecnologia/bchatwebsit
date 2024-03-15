@@ -1,0 +1,42 @@
+{
+  "text": [
+    {
+      "text": "Pronto para Transformar seu atendimento?",
+      "variant": "h2"
+    },
+    {
+      "text": "Dê vida ao seu atendimento ao cliente com o BChat criado sob medida! Estamos ansiosos para mergulhar nas suas ideias e transformá-las em uma realidade.",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Luana Cavalcanti",
+          "variant": "h5"
+        },
+        {
+          "text": "Gerente Pensar Clube",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Com o BChat não deixamos mais nenhum associado esperando atendimento. Com a integração com o nosso sistema de gestão, o associado pode emitir seu boleto mensal, de forma prática, sendo atendido pelo BChat de forma tão prática que imagina estar sendo atendido por um humano’"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/pensarClube.png",
+        "alt": "alt text"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Consulta gratuita",
+      "type": "MODAL",
+      "link": "authentication",
+      "variant": "gradient"
+    }
+  ]
+}

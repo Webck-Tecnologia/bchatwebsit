@@ -1,0 +1,82 @@
+{
+  "text": [
+    {
+      "text": "Omnichannel",
+      "color": "#088E60",
+      "variant": "h2"
+    },
+    {
+      "text": "Centralize os seus atendimentos e ganhe velocidade",
+      "variant": "h3",
+      "color":"#4E5460"
+    },
+    {
+      "text": "Omnichannel redefine a comunicação com o cliente, integrando múltiplos canais em uma experiência de atendimento coesa e sem emendas",
+      "variant": "small"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas/Group36.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default"
+    },
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas/Group35.png",
+      "alt": "alt text",
+      "effects": ["fadeInDown", "float"],
+      "position": {
+        "bottom": "-18%",
+        "left": "15%"
+      }
+    },
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas/integracoes.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInUp", "floatFaster"],
+      "position": {
+        "top": "-20%",
+        "right": "17.5%"
+      }
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "15+",
+          "color": "#088E60",
+          "variant": "h1",
+          "space": 1
+        },
+        {
+          "text": "Canais de atendimento",
+          "variant": "h6"
+        },
+        {
+          "text": "Utilize todos os canais que seu cliente prefere"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "3x",
+          "color": "#088E60",
+          "variant": "h1",
+          "space": 1
+        },
+        {
+          "text": "Vendas automáticas",
+          "variant": "h6"
+        },
+        {
+          "text": "Conecte mais ferramentas, economize tempo e resolva problemas"
+        }
+      ]
+    }
+  ]
+}

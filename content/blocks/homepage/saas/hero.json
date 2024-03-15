@@ -1,0 +1,36 @@
+{
+  "text": [
+    {
+      "text": "Experimente a IA na sua empresa",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "Solução completa de atendimento com IA: do marketing ao pós-venda",
+      "variant": "h1"
+    },
+    {
+      "text": "Centralize o atendimento, otimize a comunicação e personalize seu fluxo.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/app/hero.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default",
+      "border": "lg",
+      "effects": ["fadeInDown"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Obtenha um diagnóstico grátis da sua operação",
+      "type": "MODAL",
+      "link": "authentication",
+      "variant": "secondary"
+    }
+  ]
+}

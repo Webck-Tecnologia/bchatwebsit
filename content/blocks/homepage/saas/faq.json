@@ -1,0 +1,85 @@
+{
+  "text": [
+    {
+      "text": "Perguntas frequentes",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Saiba mais sobre os recursos do BChat IA",
+      "variant": "h2",
+      "color": "White"
+    },
+    {
+      "text": "Como especialista em chatbot, existem várias maneiras de ajudar as organizações a aumentarem a velocidade da automatização no seu atendimento.",
+      "variant": "medium",
+      "color": "#F2F2F2"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "O que é um bot de Atendimento?",
+          "variant": "h5"
+        },
+        {
+          "text": "Um bot de atendimento é um programa de computador que pode interagir com os usuários através do aplicativo de mensagens. Ele pode ser usado para ajudar os clientes a encontrar informações ou realizar outras tarefas."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-phone.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Como um bot de atendimento pode ajudar a minha empresa?",
+          "variant": "h5"
+        },
+        {
+          "text": "Os bots de WhatsApp podem ser programados para fazer uma variedade de tarefas, como automatizar o seus fluxos, facilitar o atendimento dos seus agentes humanos, direcionar o seu cliente para o atendente certo."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Como posso integrar minha equipe de atendimento ao cliente?",
+          "variant": "h5"
+        },
+        {
+          "text": "A integração da equipe de atendimento ao cliente com uma plataforma multicanal pode ser feita de várias maneiras, incluindo a utilização de softwares específicos, treinamentos e capacitações para utilizar a plataforma, e a implementação de processos e procedimentos para garantir uma comunicação eficaz entre os canais de atendimento."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-mail-send.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Como posso monitorar e medir o desempenho da minha equipe de atendimento?",
+          "variant": "h5"
+        },
+        {
+          "text": "É possível medir o desempenho da equipe de atendimento multicanal através de métricas como tempo de resposta, taxa de resolução de problemas, satisfação do cliente e outras métricas relevantes."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "text": [
+    {
+      "text": "Respostas instantâneas",
+      "color": "#088E60",
+      "variant": "small"
+    },
+    {
+      "text": "Diga adeus aos tempos de espera no atendimento",
+      "color": "#4E5460",
+      "variant": "h2"
+      
+    },
+    {
+      "text": "No mundo acelerado de hoje, a expectativa por serviços rápidos e eficientes nunca foi tão alta",
+      "color": "#4E5460",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas/posso-ajudar.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default"
+    },
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas/ampulheta.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "height": "10px",
+      "shadow": "default",
+      "effects": ["fadeInDown", "floatFaster"],
+      "position": {
+        "top": "-30%",
+        "right": "5%"
+      }
+    },
+    {
+      "src": "",
+      "alt": "alt text",
+      "effects": ["fadeInBounce", "float"],
+      "position": {
+        "top": "-15%",
+        "left": "10%"
+      }
+    },
+
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas/robo.png",
+      "alt": "alt text",
+      "effects": ["fadeInBounce", "floatFaster"],
+      "position": {
+        "bottom": "-10%",
+        "left": "5%"
+      }
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Clientes satisfeitos",
+          "color": "#4E5460",
+          "variant": "h5"
+        },
+        {
+          "text": "Clientes que são respondidos mais rápidos são mais felizes"
+        },
+        {
+          "text": "89",
+          "color": "#088E60",
+          "variant": "h2"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Agilidade da IA",
+          "color": "#4E5460",
+          "variant": "h5"
+        },
+        {
+          "text": "Nunca mais deixe seus clientes esperando"
+        },
+        {
+          "text": "97",
+          "color": "#088E60",
+          "variant": "h2"
+        }
+      ]
+    }
+  ]
+}

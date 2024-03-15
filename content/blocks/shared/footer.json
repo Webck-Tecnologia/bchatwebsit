@@ -1,0 +1,82 @@
+{
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/shared/logo.png",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Links Úteis",
+          "color":"white"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Home",
+          "type": "ANCHOR",
+          "link": "#Home",
+          "variant": "links.nav-bolt"
+        },
+        {
+          "text": "Conheça a bolt",
+          "type":"PAGE",
+          "link": "https://bolt360.com.br",
+          "variant": "links.nav-bolt"
+        },
+        {
+          "text": "Contate-nos",
+          "type": "MODAL",
+          "link": "contact",
+          "color": "#2f4f4f",
+          "variant": "links.nav-bolt"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Mídias sociais",
+          "color":"white"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Facebook",
+          "type": "PAGE",
+          "link": "https://www.facebook.com/profile.php?id=61557147965286",
+          "variant": "links.nav-bolt",
+          "color": "#2f4f4f",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bxl-facebook.svg",
+            "color": "white"
+          }
+        },
+        {
+          "text": "Linkedin",
+          "type": "PAGE",
+          "link": "https://www.linkedin.com/company/bolt-360/?viewAsMember=true",
+          "variant": "links.nav-bolt",
+          "color": "#2f4f4f",
+          "icon": {
+            "src": "../../assets/flexiblocks/companies/company-linkedin.svg",
+            "color": "#1da1f2"
+          }
+        },
+        {
+          "text": "Instagram",
+          "type": "PAGE",
+          "link": "https://www.instagram.com/bchat.ia",
+          "variant": "links.nav-bolt",
+          "color": "#2f4f4f",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bxl-instagram.svg",
+            "color": "#c13584"
+          }
+        }
+      ]
+    }
+  ]
+}

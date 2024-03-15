@@ -1,0 +1,52 @@
+{
+  "text": [
+    {
+      "text": "Monitoramento de qualidade",
+      "color": "#517664",
+      "variant": "medium"
+    },
+    {
+      "text": "Saiba tudo o que acontece na sua operação",
+      "variant": "h3"
+    },
+    {
+      "text": "Saiba qual agente está desempenhando melhor, veja os que precisam de melhorias, tudo com um clique.",
+      "variant": "small"
+    },
+    {
+      "text": "Relatórios de atendimento",
+      "variant": "h3"
+    },
+    {
+      "text": "Tenha uma visão ampla e detalhada da operação de atendimento",
+      "variant": "small"
+    },
+    {
+      "text": "Feedback em tempo real",
+      "variant": "h3"
+    },
+    {
+      "text": "Fundamental para o crescimento e desenvolvimento contínuo dos agentes",
+      "variant": "small"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas/feature3.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default"
+    },
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas/analise.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInDown", "float"],
+      "position": {
+        "top": "-35%",
+        "left": "25%"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  gatsby-app:
+    image: lucaszerino/bchatiawebsite2:1.0.8
+    ports:
+      - "2271:2271"

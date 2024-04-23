@@ -1,3 +1,7 @@
+const sanityConfig = require('./sanity-config');
+
+require('dotenv').config('./.env');
+
 module.exports = {
   plugins: [
     {
@@ -5,6 +9,16 @@ module.exports = {
       options: {
         createDemoPages: true,
         colorMode: true
+      }
+    },
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-source-sanity',
+      options: {
+        ...sanityConfig
       }
     }
   ],

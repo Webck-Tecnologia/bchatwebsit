@@ -1,0 +1,36 @@
+.containerBlog {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0px;
+    border-radius: 1rem;
+    transition: transform 250ms ease 0s, box-shadow 250ms ease 0s, color 250ms ease 0s;
+    box-shadow: rgba(140, 152, 164, 0.125) 0px 0px 35px;
+    overflow: hidden;
+    height: 100%;
+    display: inline-block;
+    color: inherit;
+    min-width: 500px;
+}
+
+.containerBlog:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombreamento maior no hover */
+    transform: translateY(-4px); /* Subir um pouco no hover */
+    cursor: pointer;
+}
+
+.imgBlog{
+    max-height: 300px;
+    max-width: 450px;
+    min-height: 300px;
+    min-width: 450px;
+    padding: 10px;
+    background-color: red;
+}
+
+.imgBlogs{
+    border-radius: 5px;
+}

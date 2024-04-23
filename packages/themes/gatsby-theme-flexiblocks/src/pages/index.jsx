@@ -21,6 +21,7 @@ import styles from './_styles';
 import Faq from '@solid-ui-blocks/Faq/Block01';
 import './styles.css';
 import foto from './imagemForm.png';
+import FeaturedBlog from '../../../../../src/components/homePage/FeaturedBlog';
 
 const HomePage = props => {
   const { allBlockContent } = props.data;
@@ -53,7 +54,7 @@ const HomePage = props => {
 
   // Função para fechar o painel ao clicar fora dele
   const handleCloseOutside = e => {
-    if (e.target.classList.contains('modal')) {
+    if (e.target.classList.contains('modal2')) {
       setIsPanelOpen(false);
     }
   };
@@ -168,13 +169,16 @@ const HomePage = props => {
         <Faq id="faq" content={content['faq']} />
       </Container>
       <Divider space='5' />
+      <div className='container'>
+        <FeaturedBlog/>
+      </div>
       <Divider space='5' />
       <Footer content={content['footer']} />
 
       {/* Painel centralizado */}
       {isPanelOpen && (
-        <div className="modal" onClick={handleCloseOutside}>
-          <div className="modal-content">
+        <div className="modal2" onClick={handleCloseOutside}>
+          <div className="modal2-content">
             <div className='left'>
               <h1>
                 Agende uma conversa com nossos especialistas

@@ -14,7 +14,7 @@ module.exports = options => {
     },
     '@elegantstack/solid-ui-layout',
     '@elegantstack/solid-ui-components',
-    '@elegantstack/solid-ui-blocks'
+    '@elegantstack/solid-ui-blocks',
   ]
 
   if (createDemoPages === true) {

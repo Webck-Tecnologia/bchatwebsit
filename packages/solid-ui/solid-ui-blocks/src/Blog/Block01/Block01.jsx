@@ -7,7 +7,7 @@ import ContentText from '@solid-ui-components/ContentText'
 import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
-
+import { graphql, useStaticQuery } from 'gatsby';
 import { FaRegClock } from 'react-icons/fa'
 
 const styles = {

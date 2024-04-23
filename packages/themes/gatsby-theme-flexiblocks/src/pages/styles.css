@@ -10,7 +10,7 @@ h1{
   color: #088E60;  
 }
 
-.modal {
+.modal2 {
   position: fixed;
   top: 0;
   left: 0;
@@ -23,7 +23,7 @@ h1{
   z-index: 500;
 }
 
-.modal-content {
+.modal2-content {
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -99,7 +99,7 @@ h1{
   padding-right: 12px;
 }
 
-.modal-content button {
+.modal2-content button {
   display: flex;
   flex-flow: column wrap;
   padding: 10px 20px;

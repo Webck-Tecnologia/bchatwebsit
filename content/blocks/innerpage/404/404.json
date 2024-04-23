@@ -6,16 +6,16 @@
       "variant": "h4"
     },
     {
-      "text": "Sorry, this page isn't available.",
+      "text": "Desculpe, essa página não está disponível",
       "variant": "h2"
     },
     {
-      "text": "You may have mistyped the address or the page may have moved."
+      "text": "Você pode apertar no botão a baixo para voltar para a página principal."
     }
   ],
   "buttons": [
     {
-      "text": "Go to Homepage",
+      "text": "Voltar ao início",
       "type": "PAGE",
       "link": "/",
       "variant": "primary"

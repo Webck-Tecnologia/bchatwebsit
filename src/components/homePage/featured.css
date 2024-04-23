@@ -1,0 +1,20 @@
+.postagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featuredBlogs__text{
+    font-size: 2.25rem !important;
+    max-width: 650px !important;
+    color: white !important;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.featuredBlogs__Title{
+    font-size: 1.5rem !important;
+    color: var(--theme-ui-colors-beta, #088E60) !important;
+}

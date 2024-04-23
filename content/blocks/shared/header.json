@@ -9,7 +9,7 @@
     {
       "buttons": [
         {
-          "text": "Soluçoes",
+          "text": "Soluções",
           "type": "ANCHOR",
           "link": "#solucoes",
           "variant": "links.nav-dark"
@@ -30,6 +30,12 @@
           "text": "Login",
           "type": "PAGE",
           "link": "https://app.bchat.com.br/",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Blog",
+          "type": "PAGE",
+          "link": "/blog",
           "variant": "links.nav-dark"
         }
       ]

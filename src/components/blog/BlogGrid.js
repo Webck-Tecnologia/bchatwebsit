@@ -27,7 +27,7 @@ const styles = {
   content: {
     alignItems: `stretch`,
     flexDirection: [`row`, null, null, `column`],
-    height: `full`,
+    height: `full`, // Definindo a altura do card
   },
   body: {
     display: `flex`,
@@ -118,24 +118,6 @@ function formatPublishDate2(publishedAt) {
 }
 
 function BlogGrid({ blogs }) {
-  // Função para criar um excerpt resumido
-  function createExcerpt(text) {
-    // Verifica se o texto existe
-    if (text) {
-      // Divide o texto em palavras
-      const words = text.split(' ');
-      // Se o número de palavras for maior que 15, corta o texto e adiciona "..."
-      if (words.length > 15) {
-        return words.slice(0, 12).join(' ') + '...';
-      } else {
-        // Caso contrário, retorna o texto original
-        return text;
-      }
-    } else {
-      return '';
-    }
-  }
-
   return (
     <Container>
       <Divider />
@@ -183,15 +165,15 @@ function BlogGrid({ blogs }) {
                         />
                         {/* Excerpt */}
                         <ContentText
-                          content={{ text: createExcerpt(item.excerpt[0]?.children[0]?.text) }} // Usa a função createExcerpt para criar o excerpt resumido
-                          variant='small'
-                          sx={{ flex: `auto`, mb: 3 }}
-                        />
+                            content={{ text: item.excerpt && item.excerpt[0]?.children && item.excerpt[0].children[0]?.text }}
+                            variant='small'
+                            sx={{ flex: `auto`, mb: 3 }}
+                          />
                         {/* Footer */}
                         <Box sx={{ variant: `text.small` }}>
                           <Flex sx={styles.footerWrapper}>
                             {/* Renderiza a imagem do autor */}
-                            {renderImage(item.authorImage, { alt: item.authorImage.alt }, styles.avatar)}
+                            {item.authorImage && renderImage(item.authorImage, { alt: item.authorImage.alt }, styles.avatar)}
                             <Flex sx={styles.postInfo}>
                               {/* Author */}
                             

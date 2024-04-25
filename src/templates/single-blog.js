@@ -180,19 +180,15 @@ const SingleBlog = ({ data }) => {
                               {/* Renderizar o conteúdo do blog */}
                               {blog.body &&
                                 blog.body.map((paragraph, index) => {
-                                  console.log(blog.body, "blog");
-                                  // Verifica se 'paragraph.children' existe e tem pelo menos um elemento
-                                  if (paragraph.children && paragraph.children.length > 0) {
-                                    // Verifica se o texto do parágrafo não está vazio
-                                    if (paragraph.children[0].text && paragraph.children[0].text.trim() !== '') {
-                                      return (
-                                        <div key={index}>
-                                          <p>{paragraph.children[0].text}</p>
-                                        </div>
-                                      );
-                                    }
+                                  // Verifica se o texto do parágrafo não está vazio
+                                  if (paragraph.children[0] && paragraph.children[0].text.trim() !== '') {
+                                    return (
+                                      <div key={index}>
+                                        <p>{paragraph.children[0].text}</p>
+                                      </div>
+                                    );
                                   }
-                                  return null; // Retorna null para parágrafos vazios ou sem conteúdo
+                                  return null; // Retorna null para parágrafos vazios
                                 })}
                             </div>
                           </div>
@@ -262,7 +258,7 @@ const SingleBlog = ({ data }) => {
                                       <div className="sidebar__recentpost-thumb">
                                         <a href={`/blogs/${post.node.slug.current}`}>
                                           {/* Substitua a imagem do post pela imagem real do post */}
-                                          <img className='postimage' src={post.node.coverImage.asset.url} alt={post.node.coverImage.alt} />
+                                          <img src={post.node.coverImage.asset.url} alt={post.node.coverImage.alt} />
                                         </a>
                                       </div>
                                       <div className="sidebar__recentpost-content">

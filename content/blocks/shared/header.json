@@ -30,7 +30,8 @@
           "text": "Login",
           "type": "PAGE",
           "link": "https://app.bchat.com.br/",
-          "variant": "links.nav-dark"
+          "variant": "links.nav-dark",
+          "target": "_blank"
         },
         {
           "text": "Blog",
